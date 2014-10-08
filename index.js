@@ -2,7 +2,6 @@ var Browser = require("zombie");
 
 require("assert");
 
-// Load the page from localhost
 browser = Browser.create();
 
 browser.visit("http://solid-interactive.github.io/masseuse-examples/two-way-binding/", function (error) {
